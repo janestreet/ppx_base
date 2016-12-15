@@ -1,0 +1,11 @@
+(executables
+ ((names (main))
+  (libraries (compiler-libs.common ppx_base ppx_driver))
+  (link_flags (-linkall))
+  (preprocess no_preprocessing)))
+
+(provides (ppx-base (file main.exe)))
+
+(install
+ ((section bin)
+  (files ((main.exe as ppx-base)))))
