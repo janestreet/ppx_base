@@ -10,3 +10,5 @@
     ppx_hash
     ppx_js_style))
   (preprocess no_preprocessing)))
+
+(jbuild_version jane_street)
