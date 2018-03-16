@@ -4,7 +4,7 @@
   (kind ppx_rewriter)
   (flags (:standard -safe-string))
   (libraries
-   (ppx_type_conv
+   (ppxlib
     ppx_sexp_conv
     ppx_compare
     ppx_enumerate
