@@ -2,7 +2,6 @@
  ((name        ppx_base)
   (public_name ppx_base)
   (kind ppx_rewriter)
-  (flags (:standard -safe-string))
   (libraries
    (ppxlib
     ppx_sexp_conv
