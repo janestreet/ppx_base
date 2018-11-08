@@ -14,9 +14,8 @@ depends: [
   "ppx_hash"
   "ppx_js_style"
   "ppx_sexp_conv"
-  "jbuilder"                {build & >= "1.0+beta18.1"}
-  "ocaml-migrate-parsetree" {>= "1.0"}
-  "ppxlib"                  {>= "0.1.0"}
+  "jbuilder"      {build & >= "1.0+beta18.1"}
+  "ppxlib"        {>= "0.1.0"}
 ]
 available: [ ocaml-version >= "4.04.2" ]
 descr: "
