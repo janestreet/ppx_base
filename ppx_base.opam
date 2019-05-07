@@ -11,6 +11,7 @@ build: [
 ]
 depends: [
   "ocaml" {>= "4.04.2"}
+  "ppx_cold"
   "ppx_compare"
   "ppx_enumerate"
   "ppx_hash"
